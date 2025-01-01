@@ -1,1 +1,45 @@
-/*# sourceMappingURL=main.css.map */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+}
+
+span {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: rgb(62, 82, 163);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Karla", serif;
+  background-color: hsl(148, 38%, 91%);
+}
+body .wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+body .wrapper input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}/*# sourceMappingURL=main.css.map */

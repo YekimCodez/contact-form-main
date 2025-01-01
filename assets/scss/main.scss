@@ -1,0 +1,29 @@
+@import './resets';
+@import './typography';
+@import './variables';
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: $karla-font;
+    background-color: $Green-200-lighter;
+
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+
+        input {
+            padding: 10px;
+            font-size: $medium;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    }
+}
