@@ -31,15 +31,36 @@ body {
   background-color: hsl(148, 38%, 91%);
 }
 body .wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+body .wrapper .form-home {
   display: flex;
   flex-direction: column;
-  padding: 1.5rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  width: 100%;
+  padding: 2rem;
 }
-body .wrapper input {
+body .wrapper .form-home .my-form {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+body .wrapper .form-home .my-form .form_group {
+  margin-bottom: 0.5rem;
+}
+body .wrapper .form-home .my-form label {
+  margin-bottom: 0.5rem;
+  display: block;
+  font-weight: 400;
+}
+body .wrapper .form-home .my-form input {
   padding: 10px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
