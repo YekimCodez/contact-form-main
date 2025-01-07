@@ -55,6 +55,41 @@ body {
                 border-radius: 0.3rem;
                 width: 100%;
             }
+
+            .query-type {
+                margin: 20px 0;
+
+                h3 {
+                    font-size: $medium;
+                    color: $Grey-500-medium;
+                    margin-bottom: 1rem;
+                }
+
+                label {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 1rem;
+                    cursor: pointer;
+
+                    input[type="radio"] {
+                        margin-right: 1rem;
+                        transform: scale(1.2);
+                    }
+
+                    span {
+                        color: $Green-600-medium;
+                        font-size: $medium;
+                    }
+
+                    span:last-child {
+                        display: block;
+                        margin-top: 1rem;
+                        font-size: 0.9rem;
+                        color: $Grey-500-medium;
+                    }
+                }
+
+            }
         }
     } 
 }   

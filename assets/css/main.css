@@ -69,4 +69,32 @@ body .wrapper .form-home input[type=email] {
   border: 0.1rem solid hsl(186, 15%, 59%);
   border-radius: 0.3rem;
   width: 100%;
+}
+body .wrapper .form-home .query-type {
+  margin: 20px 0;
+}
+body .wrapper .form-home .query-type h3 {
+  font-size: 16px;
+  color: hsl(186, 15%, 59%);
+  margin-bottom: 1rem;
+}
+body .wrapper .form-home .query-type label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+body .wrapper .form-home .query-type label input[type=radio] {
+  margin-right: 1rem;
+  transform: scale(1.2);
+}
+body .wrapper .form-home .query-type label span {
+  color: hsl(169, 82%, 27%);
+  font-size: 16px;
+}
+body .wrapper .form-home .query-type label span:last-child {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: hsl(186, 15%, 59%);
 }/*# sourceMappingURL=main.css.map */
