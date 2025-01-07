@@ -36,4 +36,31 @@ body .wrapper {
 }
 body .wrapper .form-home {
   margin: 0 auto;
+}
+body .wrapper .form-home .my-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+body .wrapper .form-home .my-form .form-group > label {
+  color: hsl(187, 24%, 22%);
+}
+body .wrapper .form-home .cta {
+  margin-bottom: 1.5rem;
+  color: hsl(187, 24%, 22%);
+}
+body .wrapper .form-home .name-inputs {
+  display: flex;
+  gap: 1rem;
+}
+body .wrapper .form-home .name-inputs input[type=text] {
+  padding: 0.5rem;
+  border: 0.1rem solid hsl(186, 15%, 59%);
+  border-radius: 0.5rem;
+}
+body .wrapper .form-home input[type=email] {
+  padding: 0.5rem;
+  border: 0.1rem solid hsl(186, 15%, 59%);
+  border-radius: 0.5rem;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

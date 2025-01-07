@@ -19,7 +19,36 @@ body {
             margin: 0 auto;
 
             .my-form {
-                
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                .form-group > label {
+                    color: $Grey-900-darker;
+                }
+            }
+
+            .cta {
+                margin-bottom: 1.5rem;
+                color: $Grey-900-darker;
+            }
+
+            .name-inputs {
+                display: flex;
+                gap: 1rem;
+
+                input[type=text] {
+                    padding: 0.5rem;
+                    border: 0.1rem solid $Grey-500-medium;
+                    border-radius: 0.5rem;
+                }
+            }
+
+            input[type=email] {
+                padding: 0.5rem;
+                border: 0.1rem solid $Grey-500-medium;
+                border-radius: 0.5rem;
+                width: 100%;
             }
         }
     } 
