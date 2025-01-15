@@ -69,7 +69,7 @@ body .wrapper .form-home .my-form input[type=submit] {
 }
 body .wrapper .form-home .my-form input[type=submit]:hover {
   cursor: pointer;
-  background-color: hsl(147, 85%, 63%);
+  background-color: hsl(147, 56%, 35%);
   color: hsl(0, 0%, 100%);
 }
 body .wrapper .form-home .cta {
